@@ -1,5 +1,5 @@
 {% set name = "pwdlib" %}
-{% set version = "0.2.1" %}
+{% set version = "0.3.0" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9a1d8a8fa09a2f7ebf208265e55d7d008103cbdc82b9e4902ffdd1ade91add5e
+  sha256: 6ca30f9642a1467d4f5d0a4d18619de1c77f17dfccb42dd200b144127d3c83fc
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
