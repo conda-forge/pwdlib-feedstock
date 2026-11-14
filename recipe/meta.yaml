@@ -24,7 +24,6 @@ requirements:
 
   run:
     - python >={{ python_min }}
-    - typing-extensions >=4.16.0
 
 test:
   imports:
